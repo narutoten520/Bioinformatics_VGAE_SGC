@@ -10,12 +10,12 @@
 ![](https://github.com/narutoten520/Bioinformatics_VGAE_SGC/blob/e0a33dbc31aa4a754a8cd2ea24bb308c136fd86a/%E5%9B%BE1.png)
 
 ## Contents
-* [Prerequisites](https://github.com/narutoten520/Benchmark_SRT#prerequisites)
-* [Example usage](https://github.com/narutoten520/Benchmark_SRT#example-usage)
-* [Benchmarking methods](https://github.com/narutoten520/Benchmark_SRT#benchmarking-methods)
-* [Datasets Availability](https://github.com/narutoten520/Benchmark_SRT#datasets-availability)
-* [License](https://github.com/narutoten520/Benchmark_SRT#license)
-* [Trouble shooting](https://github.com/narutoten520/Benchmark_SRT#trouble-shooting)
+* [Prerequisites](https://github.com/narutoten520/Bioinformatics_VGAE_SGC#prerequisites)
+* [Example usage](https://github.com/narutoten520/Bioinformatics_VGAE_SGC#example-usage)
+* [Benchmarking methods](https://github.com/narutoten520/Bioinformatics_VGAE_SGC#benchmarking-methods)
+* [Datasets Availability](https://github.com/narutoten520/Bioinformatics_VGAE_SGC#datasets-availability)
+* [License](https://github.com/narutoten520/Bioinformatics_VGAE_SGC#license)
+* [Trouble shooting](https://github.com/narutoten520/Bioinformatics_VGAE_SGC#trouble-shooting)
 
 ### Prerequisites
 
@@ -33,24 +33,20 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Example usage
-* Selecting the optimal GNN for spatial clustering task in GraphST
+* Spatial clustering for human DLPFC data using VGAE_SGC method
   ```sh
-    running GraphST.py to choose the suitable GNN for GraphST on human breast cancner data
-  ```
-* Selecting the optimal GNN for spatial clustering task in STAGATE
-  ```sh
-    running STAGATE.py to choose the suitable GNN for GraphST on human breast cancner data
+    running VGAE_SGC_training_example.ipynb to choose idetify the spatial domains for human breast cancner data
   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Benchmarking methods
 Benchmarking methods used in this paper include: 
-* [CCST](https://github.com/xiaoyeye/CCST)
+* [BayesSpace](https://github.com/edward130603/BayesSpace)
 * [DeepST](https://github.com/JiangBioLab/DeepST)
-* [GraphST](https://github.com/JinmiaoChenLab/GraphST)
+* [Scanpy](https://scanpy.readthedocs.io/en/stable/)
 * [STAGATE](https://github.com/zhanglabtools/STAGATE)
 * [SpaGCN](https://github.com/jianhuupenn/SpaGCN)
-* [conST](https://github.com/ys-zong/conST)
+* [SEDR](https://github.com/JinmiaoChenLab/SEDR)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
