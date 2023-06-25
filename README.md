@@ -7,7 +7,7 @@
 解码器用以重构特征矩阵，通过最小化损失函数来提高低维表征质量。对低维表征进行下游聚类，生成不同的细胞亚群。
 提出的聚类方法与多个基准方法在常用的空间转录数据集上进行比较，在聚类准确性和适应性方面都有优势，证明了提出方法的有效性。
 ## Workflow of spatial clustering task
-![](https://github.com/narutoten520/Benchmark_SRT/blob/9e0608f6df2c785b0a845ccf0c9438e5e7610294/Figure3-github.png)
+![](https://github.com/narutoten520/Bioinformatics_VGAE_SGC/blob/e0a33dbc31aa4a754a8cd2ea24bb308c136fd86a/%E5%9B%BE1.png)
 
 ## Contents
 * [Prerequisites](https://github.com/narutoten520/Benchmark_SRT#prerequisites)
